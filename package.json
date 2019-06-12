@@ -4,7 +4,7 @@
   "description": "Este es un repo en el que hago un cv gracias a un tutorial de react en facebook",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development"
   },
