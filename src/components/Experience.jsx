@@ -11,10 +11,8 @@ const Experience = props =>(
             {props.data.map((exp,index)=>(
 
                 <div className="Experience-item" key={`Exp-${index}`}>
-                    <H3Styled>{exp.jobTitle} @ {exp.company}
-                    <span>{exp.startDate}-{exp.endDate}</span>
-                    </H3Styled>
-                    <PStyled>{exp.jobDescription}</PStyled>
+                    <H3Styled>{exp.jobTitle} @ {exp.company}<span>{exp.startDate}-{exp.endDate}</span></H3Styled>
+                    <PStyled name={exp.jobDescription}/>
                 </div>
             ))}
 
