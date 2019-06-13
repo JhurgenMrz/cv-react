@@ -23,7 +23,7 @@ const GlobalSyle = createGlobalStyle`
 const App = () => {
   // const data = useGetData();
   // const data =
-  console.log(data);
+  console.log(`Jhurgen ${data}`);
 
   return data.length === 0 ? (
     <h1>Cargando...</h1>
