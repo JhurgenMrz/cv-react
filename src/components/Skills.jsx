@@ -6,6 +6,7 @@ const SkillsContainer = styled.div`
     grid-template-columns: repeat(3, 1fr);
     grid-gap:2rem;
     grid-row-gap: 0.5em;
+    padding-bottom: 2rem;
 `;
 
 const SkillsH5 = styled.h5`

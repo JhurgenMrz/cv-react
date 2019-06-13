@@ -4,9 +4,9 @@
   "description": "Este es un repo en el que hago un cv gracias a un tutorial de react en facebook",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "start": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --open --mode development"
+    "test": "jest"
   },
   "repository": {
     "type": "git",

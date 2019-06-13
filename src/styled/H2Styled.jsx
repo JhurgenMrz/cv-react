@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const StyledH2 =  styled.h2`
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: .8px;
     margin: 1em 0 0 0;
     color: #C2185b;

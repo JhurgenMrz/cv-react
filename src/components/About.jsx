@@ -18,6 +18,7 @@ const AboutImg = styled.img`
   margin: auto;
   display: block;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  object-fit: cover;
 `;
 
 const AboutName = styled.div`
@@ -35,7 +36,7 @@ const AboutH2 = styled.h2`
 const AboutProfession = styled.p`
   margin: 0.2em 0 1em 0;
   letter-spacing: 1.2px;
-  font-weight: 300;
+  font-weight: 400;
   color: #c2185b;
 `;
 
@@ -43,6 +44,7 @@ const AboutBio = styled.p`
   color: #757575;
   font-size: 1em;
   font-weight: 300;
+  letter-spacing:.6px;
 `;
 const AboutLocation = styled.p`
   color: #757575;
@@ -55,7 +57,7 @@ const About = ({ avatar, name, profession, bio, address, social }) => (
     <div className="About-container">
       <AboutAvatar>
         <figure>
-          <AboutImg src={avatar} alt={name} />
+          <AboutImg src="https://i.postimg.cc/cJRYDY0Y/Me.jpg" alt={name} />
         </figure>
       </AboutAvatar>
       <AboutName>
