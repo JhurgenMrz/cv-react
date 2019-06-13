@@ -1,0 +1,106 @@
+{
+  "address": "Buenos Aires, Argentina",
+  "avatar": "https://i.postimg.cc/cJRYDY0Y/Me.jpg",
+  "bio": "Soy un programador Frontend Jr con hambre de aprender todo lo que tenga que ver con el desarrollo del software. Me gusta aprender algo nuevo todos los dias y seguir creciendo en mi carrera como profesional. Amo la Música, Bailar y leer libros.",
+  "certificate": [
+    {
+      "date": "Dec 2018",
+      "description": "Desarrolla tu propia página web con HTML5 y CSS3. Crea un sitio web para tu producto, personalízalo e inicia tu carrera para ser un Frontend profesional.",
+      "institution": "Platzi",
+      "name": "Curso de Desarrollo Web Online.",
+      "image":"https://i.postimg.cc/02KCYzMG/0001.jpg"
+    },
+    {
+      "date": "Dec 2018",
+      "description": "Maqueta aplicaciones con diseño web adaptable. Adapta tus sitios para que funcionen en cualquier pantalla, dispositivo y resolución con HTML5 y CSS3 y genera la mejor experiencia para tus usuarios con Responsive Design.",
+      "institution": "Platzi",
+      "name": "Curso de Responsive Design",
+      "image":"https://i.postimg.cc/mrj3LMJ4/0001-1.jpg"
+    },
+    {
+      "date": "May 2019",
+      "description": "React es una de las librerías más utilizadas hoy para crear aplicaciones web. Aprende desde la creación y diseño de componentes hasta traer datos de un API. Desarrolla aplicaciones web de muy alta calidad en tiempo record con React.js",
+      "institution": "Platzi",
+      "name": "Curso de React",
+      "image":"https://i.postimg.cc/pTnQtTNY/0001-2.jpg" 
+    },
+    {
+        "date": "May 2019",
+        "description": "Java es un lenguaje de programación con el que puedes desarrollar software multiplataforma gracias a la JVM (Máquina Virtual de Java).",
+        "institution": "Platzi",
+        "name": "Curso Basico de Java SE",
+        "image":"https://i.postimg.cc/tJpsmC9g/0001-3.jpg" 
+      }
+  ],
+  "education": [
+    {
+      "degree": "Técnico en Administracion de Empresas",
+      "description": "Estudie en el colegio secundario Escuela Técnica N°4 D°E°5to República del Libano. Donde aprendi las de como administrar una empresa y lo que conlleva",
+      "endDate": "Dec 2017",
+      "institution": "República del Líbano ",
+      "startDate": "Mar 2012"
+    }
+  ],
+  "experience": [
+    {
+      "company": "PugStar",
+      "endDate": "Present",
+      "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
+      "jobTitle": "Frontend",
+      "startDate": "Jan 2020"
+    },
+    {
+      "company": "CatStore",
+      "endDate": "Jan 2016",
+      "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
+      "jobTitle": "Backend",
+      "startDate": "Sept 2019"
+    }
+  ],
+  "name": "Jhurgen Maraza",
+  "profession": "FrontEnd Developer",
+  "skills": [
+    {
+      "name": "HTML5",
+      "percentage": "55%"
+    },
+    {
+      "name": "CSS",
+      "percentage": "35%"
+    },
+    {
+      "name": "JavaScript",
+      "percentage": "45%"
+    },
+    {
+      "name": "React",
+      "percentage": "30%"
+    },
+    {
+      "name": "Java",
+      "percentage": "30%"
+    },
+    {
+      "name": "Illustrator",
+      "percentage": "50%"
+    }
+  ],
+  "social": [
+    {
+      "name": "facebook",
+      "url": "https://facebook.com/Jhurgen.Mrz"
+    },
+    {
+      "name": "twitter",
+      "url": "https://twitter.com/JhurgenMrz"
+    },
+    {
+      "name": "github",
+      "url": "https://github.com/JhurgenMrz"
+    },
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/jhurgen-maraza-169050177/"
+    }
+  ]
+}
