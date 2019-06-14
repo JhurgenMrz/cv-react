@@ -16,7 +16,7 @@ const GlobalSyle = createGlobalStyle`
         font-family: 'Lato', sans-serif;
         margin:0 ;
         padding:0;
-        background: #f5f5f5;
+        background: white;
     }
 `;
 
@@ -34,9 +34,7 @@ const App = () => {
       <Sidebar>
         <About
           avatar={data.avatar}
-          name={data.name}
           profession={data.profession}
-          bio={data.bio}
           address={data.address}
           social={data.social}
         />

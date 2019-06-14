@@ -7,17 +7,20 @@ const AboutStyle = styled.div`
 `;
 
 const AboutAvatar = styled.div`
-  padding: 2em 0 0 0;
+/* border: 2px solid blue; */
+width:600px;
+margin-top:2em;
+justify-content:center;
 `;
 
 const AboutImg = styled.img`
   border-radius: 100%;
-  width: 160px;
-  height: 160px;
-  border: 2px solid #e91e63;
+  width: 230px;
+  height: 230px;
+  border: 2px solid white;
   margin: auto;
   display: block;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 40px 5px rgba(255,255,255,0.75);
   object-fit: cover;
 `;
 
@@ -25,19 +28,29 @@ const AboutName = styled.div`
   text-align: center;
 `;
 
+const Presentation = styled.div`
+  margin-left: 0.5em;
+  width:600px;
+`;
+
 const AboutH2 = styled.h2`
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 600;
-  letter-spacing: 2px;
-  margin: 0.5em 0 0 0;
-  color: #c2185b;
+  font-size: 2.8em;
+  letter-spacing: 1px;
+  margin: 0;
+  color: white;
+  text-align:left;
 `;
 
 const AboutProfession = styled.p`
-  margin: 0.2em 0 1em 0;
-  letter-spacing: 1.2px;
+  font-family: 'Lato';
+  letter-spacing: 2px;
   font-weight: 400;
-  color: #c2185b;
+  color: white;
+  font-size: 24px;
+  padding: 0;
+  margin:0;
 `;
 
 const AboutBio = styled.p`
@@ -47,35 +60,57 @@ const AboutBio = styled.p`
   letter-spacing:.6px;
 `;
 const AboutLocation = styled.p`
-  color: #757575;
+  color: white;
   font-size: 1em;
   font-weight: 400;
+  padding: 0;
+  margin:0.5em 0;
+`;
+const EffectWhite = styled.div`
+  margin-top:1.5em;
+  background: white;
+  width: 100%;
+  height: 10px;
+`;
+
+const AbountContainer = styled.div`
+  width:1024px;
+  height: 440px;
+  display:flex;
+  border: 1px solid white;
+  margin: 0;
+  padding:0;
+  background: url(https://i.postimg.cc/yYhs9KR8/fabian-grohs-597395-unsplash.jpg) no-repeat center fixed;
+
 `;
 
 const About = ({ avatar, name, profession, bio, address, social }) => (
   <AboutStyle>
-    <div className="About-container">
-      <AboutAvatar>
+    
+    <AbountContainer>
+      <Presentation>
+        <AboutH2 >HELLO!  I'M JHURGEN<br/> PASSIONATE ABOUT TECHNOLOGY<br/> AND DESIGN<br/>#NuncaParesDeAprender <br/> #NeverStopLearning 
+        </AboutH2>
+      </Presentation>
+
+       <AboutAvatar>
         <figure>
           <AboutImg src="https://i.postimg.cc/cJRYDY0Y/Me.jpg" alt={name} />
         </figure>
-      </AboutAvatar>
-      <AboutName>
-        <AboutH2>{name}</AboutH2>
-      </AboutName>
-      <div className="About-profession">
         <AboutProfession>{profession}</AboutProfession>
-      </div>
-      <div className="About-desc">
-        <AboutBio>{bio}</AboutBio>
-      </div>
-      <div className="About-location">
         <AboutLocation>{address}</AboutLocation>
-      </div>
-      <div className="About-social">
+      
         <Social social={social} />
+      
+
+      </AboutAvatar>
+      
+      <div className="About-location">
       </div>
-    </div>
+      
+
+
+    </AbountContainer>
   </AboutStyle>
 );
 
