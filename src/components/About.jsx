@@ -99,7 +99,7 @@ const AbountContainer = styled.div`
   background-position: center center;
 `;
 
-const About = ({ avatar, name, profession, bio, address, social }) => (
+const About = ({ name, profession, address, social }) => (
   <AboutStyle>
     <AbountContainer>
       <Presentation>
@@ -121,7 +121,9 @@ const About = ({ avatar, name, profession, bio, address, social }) => (
         <LocationContainer>
         <AboutLocation>{address}</AboutLocation>
         </LocationContainer>
-
+        {
+        console.log(`Object Social: ${social}`)
+        }
         <Social social={social} />
       </AboutAvatar>
 

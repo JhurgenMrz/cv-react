@@ -44,7 +44,7 @@ const Certificates = props =>(
 
             {props.certificate.map((cert,index)=>(
 
-            <Certificate index={index}  cert={cert} >
+            <Certificate key={`cert-${index}`} index={index}  cert={cert} >
 
             </Certificate>
 

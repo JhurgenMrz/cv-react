@@ -9,8 +9,8 @@ describe("Pruebas Unitarias con Jest", () => {
     const wrapper = shallow(<About />);
     expect(wrapper.exists()).toBe(true);
   });
-  test("Recibir propiedades", () => {
-    const wrapper = mount(<About name="Jhurgen Maraza" />);
-    expect(wrapper.props().name).toEqual('Jhurgen Maraza');
-  });
+  // test("Recibir propiedades", () => {
+  //   const wrapper = mount(<About name="Jhurgen Maraza" />);
+  //   expect(wrapper.props().name).toEqual('Jhurgen Maraza');
+  // });
 });

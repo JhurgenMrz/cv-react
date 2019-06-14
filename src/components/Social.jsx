@@ -55,8 +55,12 @@ const getColor = name => {
   if (name == "github") return github;
 };
 
-const Social = props => (
-  <SocialContainer>
+const Social = props => {
+
+  return props.social.length === 0 ?(
+      <h5>Cargando...</h5>
+  ) : (
+    <SocialContainer>
     {props.social.map((item, index) => (
       <SocialCircle key={`Social-${index}`}>
         <SocialAnchor href={item.url} target="_blank">
@@ -67,6 +71,8 @@ const Social = props => (
       </SocialCircle>
     ))}
   </SocialContainer>
-);
+  )
+
+}
 
 export default Social;

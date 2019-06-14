@@ -22,14 +22,15 @@ height:100%;
 `;
 
 const CertificateName= styled.div`
-    border:2px solid grey;
+    border:3px solid #00204a;
     background-color:white;
     position:absolute;
     z-index:2;
     width:70%;
-    height:90px;
+    height:80px;
     left:15%;
-    top:70%;
+    top:75%;
+    border-radius: 5px;
 `;
 
 const Certificate = ({cert,index}) => (
