@@ -2,21 +2,34 @@ import React from 'react';
 import H2Styled from '../styled/H2Styled';
 import H3Styled from '../styled/H3Styled';
 import PStyled from '../styled/PStyled';
+import Certificate from '../components/Certificate'
+import styled from 'styled-components'
+
+const CertificatesConteiner = styled.div`
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-row-gap:2.3em;
+    justify-items: center;
+    text-align:center;
+`;
+
+
 
 const Certificates = props =>(
-    <div className="Certificates">
-        <div className="Certificates-container">
-        <H2Styled name="Certificates"/>
+    <div>
+        <H2Styled name="CERTIFICATES / PROJECTS"/>
 
-            {props.data.map((cert,index)=>(
-            <div className="Certificates-item" key={`Cert-${index}`}>
-                <H3Styled>{cert.name} @{cert.institution} {cert.date}</H3Styled>
-                <PStyled name={cert.description} />
-            </div>
+        <CertificatesConteiner>
+
+            {props.certificate.map((cert,index)=>(
+
+            <Certificate index={index}  cert={cert} >
+
+            </Certificate>
+
             ))
             }
-
-        </div>
+        </CertificatesConteiner>
     </div>
 )
 

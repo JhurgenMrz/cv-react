@@ -44,9 +44,7 @@ const App = () => {
       
       <Details skills={data.skills} bio={data.bio} />
 
-      <Portfolio>
-        <Certificates data={data.certificate} />
-      </Portfolio>
+      <Portfolio certificate={data.certificate} />
         {/* <Education data={data.education} /> */}
         {/* <Experience data={data.experience} /> */}
     </Main>
