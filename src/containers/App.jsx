@@ -3,6 +3,8 @@ import { createGlobalStyle } from "styled-components";
 import Main from "../components/Main";
 import Sidebar from "../components/Sidebar";
 import Info from "../components/Info";
+import Details from '../components/Details'
+import Portfolio from '../components/Portfolio'
 import About from "../components/About";
 import Education from "../components/Education";
 import Experience from "../components/Experience";
@@ -39,12 +41,13 @@ const App = () => {
           social={data.social}
         />
       </Sidebar>
-      <Info>
-        <Education data={data.education} />
-        <Experience data={data.experience} />
+      <Details skills={data.skills}>
+      </Details>
+      <Portfolio>
         <Certificates data={data.certificate} />
-        <Skills data={data.skills} />
-      </Info>
+      </Portfolio>
+        {/* <Education data={data.education} /> */}
+        {/* <Experience data={data.experience} /> */}
     </Main>
   );
 };
