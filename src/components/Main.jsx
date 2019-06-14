@@ -10,9 +10,9 @@ const MainStyled = styled.div`
 
 const MainContainer = styled.div`
     display:grid;
-    grid-template-rows: 450px 400px 800px;
-    grid-gap: 1rem;
-    grid-row-gap: 0.5em;
+    grid-template-rows: 445px 400px 800px;
+    grid-row-gap: .6em;
+
 
     @media only screen and (max-width: 767px){
         grid-template-columns: 1fr;

@@ -24,9 +24,6 @@ const AboutImg = styled.img`
   object-fit: cover;
 `;
 
-const AboutName = styled.div`
-  text-align: center;
-`;
 
 const Presentation = styled.div`
   margin-left: 0.5em;

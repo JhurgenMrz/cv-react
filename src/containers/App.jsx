@@ -41,8 +41,9 @@ const App = () => {
           social={data.social}
         />
       </Sidebar>
-      <Details skills={data.skills} bio={data.bio}>
-      </Details>
+      
+      <Details skills={data.skills} bio={data.bio} />
+
       <Portfolio>
         <Certificates data={data.certificate} />
       </Portfolio>

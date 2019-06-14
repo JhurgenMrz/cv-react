@@ -5,6 +5,7 @@ import H2Styled from '../styled/H2Styled'
 import PStyled from '../styled/PStyled'
 
 const DetailsContainer = styled.div`
+background-color:#f6f6f6;
 display: grid;
 grid-template-columns: 1fr 1fr;
 

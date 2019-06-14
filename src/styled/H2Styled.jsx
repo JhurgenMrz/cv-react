@@ -6,7 +6,7 @@ const StyledH2 =  styled.h2`
     font-size:2em;
     font-weight: bold;
     letter-spacing: 0.1em;
-    margin: 0 0 0.6em 0.5em;
+    margin: .3em 0 0.6em 0.6em;
     color: #222831;
 
 
