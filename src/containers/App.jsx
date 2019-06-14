@@ -18,7 +18,7 @@ const GlobalSyle = createGlobalStyle`
         font-family: 'Lato', sans-serif;
         margin:0 ;
         padding:0;
-        background: white;
+        background-color: #393e46;
     }
 `;
 

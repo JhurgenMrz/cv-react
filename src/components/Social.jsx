@@ -21,12 +21,14 @@ const SocialCircle = styled.div`
   border-radius: 23%;
   justify-content: center;
   align-items: center;
+  box-shadow: 0px 0px 14px 5px rgba(176,176,176,1);
 `;
 
 const SocialAnchor = styled.a`
   color: white;
   text-decoration: none;
   font-size: 2.4em;
+  
 `;
 
 const SocialIcon = styled.i`

@@ -10,7 +10,7 @@ const MainStyled = styled.div`
 
 const MainContainer = styled.div`
     display:grid;
-    grid-template-rows: 445px 400px 800px;
+    grid-template-rows: 445px auto ;
     grid-row-gap: .6em;
 
 

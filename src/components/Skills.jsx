@@ -12,12 +12,14 @@ const Skill = styled.div`
     justify-content: space-between;
     align-items:center;
     height:3em;
+    border-bottom: 1px solid lightgray;;
+    box-shadow: 1px 10px 3px -7px rgba(176,176,176,1);
 `;
 
 const SkillsH5 = styled.h5`
     font-size: 1.4em;
-    margin: .5em 0;
-    font-weight: bold;
+    /* margin: .5em 0; */
+    font-weight: normal;
 `;
 
 const SkillsLine = styled.div`

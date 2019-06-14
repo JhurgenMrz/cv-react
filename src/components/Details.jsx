@@ -8,6 +8,8 @@ const DetailsContainer = styled.div`
 background-color:#f6f6f6;
 display: grid;
 grid-template-columns: 1fr 1fr;
+/* grid-column-gap: 4em; */
+
 
 `;
 
