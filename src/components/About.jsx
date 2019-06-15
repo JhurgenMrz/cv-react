@@ -17,7 +17,7 @@ const AboutImg = styled.img`
   border-radius: 100%;
   width: 230px;
   height: 230px;
-  border: 2px solid white;
+  border: 2px solid #2b3595;
   margin: auto;
   display: block;
   box-shadow: 0px 0px 40px 5px rgba(255, 255, 255, 0.75);
@@ -51,6 +51,7 @@ height: 30px;
   margin:0 25% 0 25%;
   background-color:white;
   box-shadow: 0px 0px 14px 5px rgba(176,176,176,1);
+  border-radius:2px;
 `;
 
 const AboutProfession = styled.p`
@@ -70,6 +71,8 @@ padding:0;
   margin:0 30% 0 30%;
   background-color:white;
   box-shadow: 0px 0px 14px 5px rgba(176,176,176,1);
+  border-radius:2px;
+
 `;
 
 const AboutLocation = styled.p`
@@ -97,6 +100,7 @@ const AbountContainer = styled.div`
   background: url(https://i.postimg.cc/8c9jWcSX/rich-tervet-662093-unsplash.jpg);
   background-size: 100%;
   background-position: center center;
+  /* box-shadow: 0px 0px 7px 2px rgba(255,255,255,1); */
 `;
 
 const About = ({ name, profession, address, social }) => (

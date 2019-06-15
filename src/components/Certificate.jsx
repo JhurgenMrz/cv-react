@@ -4,6 +4,7 @@ import H3Styled from '../styled/H3Styled'
 import PStyled from '../styled/PStyled'
 
 const CertificateBox = styled.div`
+
     width:360px;
     height:260px;
     /* border: 2px solid blue; */
@@ -22,22 +23,23 @@ height:100%;
 `;
 
 const CertificateName= styled.div`
-    border:3px solid #00204a;
+    
+    border:3px solid #161F7D;
     background-color:white;
     position:absolute;
     z-index:2;
-    width:70%;
-    height:80px;
-    left:15%;
-    top:75%;
-    border-radius: 5px;
+    width:80%;
+    height:60px;
+    left:10%;
+    top:80%;
+    border-radius: 7px;
 `;
 
 const Certificate = ({cert,index}) => (
     <CertificateBox key={`Cert-${index}`}>
                 <CertificateImg src={cert.image}/>
                 <CertificateName>
-                    <H3Styled>{cert.name} @{cert.institution}</H3Styled>
+                    <H3Styled>{cert.name}  <br/>@{cert.institution}</H3Styled>
                 </CertificateName>
     </CertificateBox>
 

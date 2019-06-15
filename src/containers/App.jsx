@@ -2,14 +2,9 @@ import React from "react";
 import { createGlobalStyle } from "styled-components";
 import Main from "../components/Main";
 import Sidebar from "../components/Sidebar";
-import Info from "../components/Info";
 import Details from '../components/Details'
 import Portfolio from '../components/Portfolio'
 import About from "../components/About";
-import Education from "../components/Education";
-import Experience from "../components/Experience";
-import Certificates from "../components/Certificates";
-import Skills from "../components/Skills";
 // import useGetData from "../hooks/useGetData";
 import data from "../api.json";
 
@@ -45,8 +40,6 @@ const App = () => {
       <Details skills={data.skills} bio={data.bio} />
 
       <Portfolio certificate={data.certificate} />
-        {/* <Education data={data.education} /> */}
-        {/* <Experience data={data.experience} /> */}
     </Main>
   );
 };

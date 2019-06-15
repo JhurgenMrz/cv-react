@@ -3,7 +3,8 @@ import H2Styled from '../styled/H2Styled';
 import H3Styled from '../styled/H3Styled';
 import PStyled from '../styled/PStyled';
 import Certificate from '../components/Certificate'
-import styled, {ThemeProvider} from 'styled-components'
+import styled from 'styled-components'
+// import icon from '../../public/icon.png'
 
 
 const Container = styled.div`
@@ -23,17 +24,21 @@ const CertificatesConteiner = styled.div`
 const PCert = styled.p`
 font-family:'Lato', sans-serif;
 text-align:right;
-margin-right:3%;
+margin-right:0;
 letter-spacing: 2px;
 `;
 
-const react = {
-    color: "#3b5998"
-  };
-
-  const SocialIcon = styled.i`
-  color: ${props => props.theme.color};
+const FooterDiv = styled.div`
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    justify-items:flex-end;
+    justify-items:right;
+    align-content:center;
+    align-items:center;
+    margin-right:1%;
 `;
+
 
 
 const Certificates = props =>(
@@ -51,12 +56,9 @@ const Certificates = props =>(
             ))
             }
         </CertificatesConteiner>
-        <PCert>This page was made with REACT  </PCert>
-        <a href="google.com" target="_blank">
-        <ThemeProvider theme={react}>
-        <SocialIcon className={`fa fa-${react}`} />
-        </ThemeProvider>
-        </a>
+        <FooterDiv>
+        <PCert>This page was made with REACT </PCert> <img  src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="react" witdh="10" height="30"/>
+        </FooterDiv>
     </Container>
 )
 
