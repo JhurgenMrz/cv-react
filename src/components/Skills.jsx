@@ -4,7 +4,16 @@ import styled,{ keyframes } from 'styled-components'
 const SkillsContainer = styled.div`
     display: flex;
     flex-direction:column;
-    padding: 3rem 4em 2em 5em;
+    padding: 3em 4em 2em 5em;
+
+    @media screen and (max-width:768px){
+        padding:2em 2em 1em 2em;
+    }
+    @media screen and (max-width:426px){
+        padding:0;
+        margin:1em 1.5em;
+    }
+
 `;
 const Skill = styled.div`
     display:flex;
@@ -14,6 +23,7 @@ const Skill = styled.div`
     height:3em;
     border-bottom: 1px solid lightgray;;
     box-shadow: 1px 10px 3px -7px rgba(176,176,176,1);
+    margin-bottom:.4em;
 `;
 
 const SkillsH5 = styled.h5`

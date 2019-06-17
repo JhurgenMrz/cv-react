@@ -20,6 +20,12 @@ const CertificatesConteiner = styled.div`
     justify-items: center;
     text-align:center;
     margin-bottom: 5%;
+
+    @media (max-width:426px){
+        grid-template-columns: 1fr;
+    }
+
+
 `;
 const PCert = styled.p`
 font-family:'Lato', sans-serif;

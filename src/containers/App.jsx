@@ -10,7 +10,7 @@ import data from "../api.json";
 
 const GlobalSyle = createGlobalStyle`
     body{
-        font-family: 'Lato', sans-serif;
+        font-family: 'Arial', sans-serif;
         margin:0 ;
         padding:0;
         background-color: #393e46;

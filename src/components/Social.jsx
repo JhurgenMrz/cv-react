@@ -2,7 +2,7 @@ import React from "react";
 import styled, { ThemeProvider } from "styled-components";
 
 const SocialContainer = styled.div`
-  margin: 0 auto;
+  margin: .5em auto 0 auto ;
   /* border: 2px solid blue; */
   height: 60px;
   padding: 0;
@@ -11,6 +11,13 @@ const SocialContainer = styled.div`
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+
+  @media only screen and(max-width:1023px){
+    
+    margin: 20px auto 0 auto ;
+  }
+
+
 `;
 
 const SocialCircle = styled.div`

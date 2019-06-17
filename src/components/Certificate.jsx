@@ -11,6 +11,15 @@ const CertificateBox = styled.div`
     position: relative;
     margin-top:1em;
     box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.75);
+
+
+    @media (max-width:768px){
+        border:2px solid #161F7D;
+        width: 290px;
+        height:200px;
+        margin: 1em;
+    }
+
 `;
 
 const CertificateImg = styled.img`
@@ -28,11 +37,13 @@ const CertificateName= styled.div`
     background-color:white;
     position:absolute;
     z-index:2;
-    width:80%;
+    width: 95%;
     height:60px;
-    left:10%;
+    left:1.5%;
     top:80%;
     border-radius: 7px;
+    box-shadow: 1px 10px 3px -7px rgba(176,176,176,1);
+
 `;
 
 const Certificate = ({cert,index}) => (
