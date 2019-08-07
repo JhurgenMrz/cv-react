@@ -1,0 +1,17 @@
+.Main {
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  grid-template-rows: 440px auto auto;
+  justify-content: center;
+  grid-row-gap: 0.3em;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 426px) {
+    .Main{
+        grid-template-rows: 650px auto auto;
+    }
+ 
+}

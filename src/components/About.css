@@ -1,0 +1,171 @@
+.AbountContainer {
+  text-align: center;
+  width: 1024px;
+  height: 440px;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  /* background: url(https://i.postimg.cc/yYhs9KR8/fabian-grohs-597395-unsplash.jpg); */
+  background: url(https://i.postimg.cc/8c9jWcSX/rich-tervet-662093-unsplash.jpg);
+  background-size: 100%;
+  background-position: center center;
+  /* box-shadow: 0px 0px 7px 2px rgba(255,255,255,1); */
+}
+.PresentationResponsive{
+  display: none;
+}
+.Presentation {
+  margin-left: 0.5em;
+  width: 600px;
+}
+.Presentation h2 {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: normal;
+  font-size: 300%;
+  letter-spacing: 4px;
+  margin: 0 0 0.5em 0;
+  color: white;
+  text-align: left;
+  line-height: 133%;
+}
+.Presentation h2 strong {
+  color: #2b3595;
+}
+
+.About-Avatar {
+  width: 600px;
+  margin-top: 2em;
+  justify-content: center;
+}
+.About-Avatar figure img{
+  border-radius: 100%;
+  width: 230px;
+  height: 230px;
+  border: 2px solid #2b3595;
+  margin: auto;
+  display: block;
+  box-shadow: 0px 0px 40px 5px rgba(255, 255, 255, 0.75);
+  object-fit: cover;
+}
+.ProfessionContainer{
+  height: 30px;
+  width: 50%;
+  margin: 0 25% 0 25%;
+  background-color: white;
+  box-shadow: 0px 0px 14px 5px rgba(176, 176, 176, 1);
+  border-radius: 2px;
+}
+.ProfessionContainer p {
+  font-family: "Fjalla One", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 400;
+  color: #2b3595;
+  font-size: 150%;
+  padding: 0;
+  margin: 0;
+}
+.LocationContainer{
+  height: 20px;
+  width: 40%;
+  padding: 0;
+  margin: 0 30% 0 30%;
+  background-color: white;
+  box-shadow: 0px 0px 14px 5px rgba(176, 176, 176, 1);
+  border-radius: 2px;
+}
+.LocationContainer p{
+  color: #2b3595;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 0;
+}
+
+@media screen and (max-width:768px){
+.AbountContainer{
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: url(https://i.postimg.cc/yYhs9KR8/fabian-grohs-597395-unsplash.jpg);
+  background-size: auto;
+  background-position: left top;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 650px;
+
+}
+
+.Presentation{
+  display: none;
+}
+.PresentationResponsive{
+  display: flex;
+
+}
+
+.PresentationResponsive h2 {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: normal;
+  font-size: 45px;
+  letter-spacing: 4px;
+  margin: 0;
+  color: white;
+  /* text-align: left; */
+  line-height: 150%;
+}
+.PresentationResponsive h2 strong {
+  color: #2b3595;
+}
+.LocationContainer{
+  margin-bottom: 1rem;
+}
+}
+
+@media screen and (max-width:426px){
+.AbountContainer{
+  background: url(https://images.unsplash.com/photo-1549692520-acc6669e2f0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80);
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: auto;
+  height: auto;
+}
+.PresentationResponsive h2{
+  font-size: 30px;
+}
+.PresentationResponsive h2 strong {
+  color: #20adff;
+}
+.About-Avatar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  margin-top: 1rem;
+}
+.About-Avatar figure{
+  margin: 0;
+}
+
+.About-Avatar figure img{
+  width: 150px;
+  height: 150px;
+}
+.ProfessionContainer{
+  width: auto;
+  margin: 0;
+  margin-top: 0.5rem;
+}
+.ProfessionContainer p{
+}
+
+.LocationContainer{
+  margin: 1rem auto 1rem auto;
+  width: fit-content;
+}
+.LocationContainer p {
+  margin: 0;
+}
+}

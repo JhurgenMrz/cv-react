@@ -3,6 +3,7 @@ import styled, { ThemeProvider } from "styled-components";
 
 const SocialContainer = styled.div`
   margin: 0 auto;
+  margin-bottom: 1rem;
   /* border: 2px solid blue; */
   height: 60px;
   padding: 0;
