@@ -115,7 +115,7 @@
   line-height: 150%;
 }
 .PresentationResponsive h2 strong {
-  color: #2b3595;
+  color: #2a7fff;  
 }
 .LocationContainer{
   margin-bottom: 1rem;
@@ -132,6 +132,7 @@
   height: auto;
 }
 .PresentationResponsive h2{
+  margin-top: 1rem;
   font-size: 30px;
 }
 .PresentationResponsive h2 strong {
@@ -158,8 +159,6 @@
   margin: 0;
   margin-top: 0.5rem;
 }
-.ProfessionContainer p{
-}
 
 .LocationContainer{
   margin: 1rem auto 1rem auto;
@@ -168,4 +167,11 @@
 .LocationContainer p {
   margin: 0;
 }
+}
+
+@media screen and (max-width:320px){
+  .About-Avatar figure img{
+    width: 120px;
+    height: 120px;
+  }
 }

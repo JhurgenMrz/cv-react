@@ -1,31 +1,23 @@
-import React from 'react'
-import Skills from '../components/Skills'
-import styled from 'styled-components'
-import H2Styled from '../styled/H2Styled'
-import PStyled from '../styled/PStyled'
+import React from "react";
+import Skills from "../components/Skills";
+import H2Styled from "../styled/H2Styled";
+import PStyled from "../styled/PStyled";
+import "./Details.css";
 
-const DetailsContainer = styled.div`
-background-color:#f6f6f6;
-display: grid;
-grid-template-columns: 1fr 1fr;
-/* grid-column-gap: 4em; */
-
-
-`;
-
-
-const Details = ({skills,bio}) =>{
- return (
-     <DetailsContainer>
-     <div>
-        <H2Styled name ="EXPERIENCE / KNOWLEDGE"/>
-        <PStyled name={bio}/>
-     </div>
-     <div>
-        <Skills data={skills}/>
-     </div>
-     </DetailsContainer>
- )   
-}
+const Details = ({ skills, bio }) => {
+  return (
+    <div className="Details-container">
+      <h2>EXPERIENCE / KNOWLEDGE</h2>
+      <div className="Details-presentation">
+        <div className="Details-bio">
+          <p>{bio}</p>
+        </div>
+        <div className="Details-skills">
+          <Skills data={skills} />
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default Details;

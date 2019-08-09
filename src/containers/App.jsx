@@ -37,7 +37,7 @@ const App = () => {
         />
       </Sidebar>
       
-      {/* <Details skills={data.skills} bio={data.bio} /> */}
+      <Details skills={data.skills} bio={data.bio} />
 
       {/* <Portfolio certificate={data.certificate} /> */}
     </Main>
