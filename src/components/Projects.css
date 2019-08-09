@@ -1,0 +1,84 @@
+.Projects-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Project-item{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.Project-item h3{
+    font-family: "Fjalla One", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  margin: 0.5em 0 0.3em 0.6em;
+  color: #00204a;
+  /* color: #202020; */
+}
+.Project-image{
+    margin-top: 2rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4em;
+}
+.Project-image img{
+    width: 350px;
+    height: 350px;
+}
+.Project-image a{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+    position: absolute;
+    /* left: 0; */
+    /* right: 0; */
+    bottom: 20px;
+    font-size: 1rem;
+    background-color: #3148b1;
+    height: 25px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 3px 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Project-description{
+    width: 50%;
+}
+.Project-description p{
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+}
+.Project-technologies{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+    justify-content: space-evenly;
+}
+.Project-tech{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Project-tech img{
+    width: 40px;
+    height: 40px;
+}
+.Project-tech p{
+    font-size: 1rem;
+    margin:0;
+}

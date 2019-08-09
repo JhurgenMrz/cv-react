@@ -4,6 +4,7 @@ import Main from "../components/Main";
 import Sidebar from "../components/Sidebar";
 import Details from '../components/Details'
 import Portfolio from '../components/Portfolio'
+import Projects from '../components/Projects'
 import About from "../components/About";
 // import useGetData from "../hooks/useGetData";
 import data from "../api.json";
@@ -13,7 +14,8 @@ const GlobalSyle = createGlobalStyle`
         font-family: 'Lato', sans-serif;
         margin:0 ;
         padding:0;
-        background-color: #393e46;
+        /* background-color: #393e46; */
+        background-color: #202020;
     }
 `;
 
@@ -38,6 +40,8 @@ const App = () => {
       </Sidebar>
       
       <Details skills={data.skills} bio={data.bio} />
+
+      {/* <Projects projects={data.projects} /> */}
 
       {/* <Portfolio certificate={data.certificate} /> */}
     </Main>
