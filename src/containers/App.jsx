@@ -22,7 +22,7 @@ const GlobalSyle = createGlobalStyle`
 const App = () => {
   // const data = useGetData();
   // const data =
-  console.log(`Jhurgen ${data}`);
+  // console.log(`Jhurgen ${data}`);
 
   return data.length === 0 ? (
     <h1>Cargando...</h1>
@@ -41,7 +41,7 @@ const App = () => {
       
       <Details skills={data.skills} bio={data.bio} />
 
-      {/* <Projects projects={data.projects} /> */}
+      <Projects projects={data.projects} />
 
       {/* <Portfolio certificate={data.certificate} /> */}
     </Main>

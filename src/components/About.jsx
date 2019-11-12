@@ -29,7 +29,7 @@ const About = ({ name, profession, address, social }) => (
         <div className="LocationContainer">
           <p>{address}</p>
         </div>
-        {console.log(`Object Social: ${social}`)}
+        {/* {console.log(`Object Social: ${social}`)} */}
         
         <Social social={social} />
       </div>

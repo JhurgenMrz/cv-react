@@ -21,8 +21,7 @@ function Projects({ projects }) {
           <div className="Project-image">
             <img src={project.image} alt="" />
             <a href={project.pageUrl} target="_blank">
-              {" "}
-              Ver Página{" "}
+              Ver Página
             </a>
           </div>
         </div>

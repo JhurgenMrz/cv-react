@@ -82,3 +82,33 @@
     font-size: 1rem;
     margin:0;
 }
+
+@media screen and (max-width: 768px) {
+.Project-item{
+    /* flex-direction: column; */
+}
+.Project-image{
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+.Project-image img{
+    width: 350px;
+    height: 350px;
+}
+}
+
+@media screen and (max-width: 426px){
+.Project-item{
+    flex-direction: column;
+}
+.Project-description{
+    width: 100%;
+}
+.Project-description p{
+    margin: 0 1rem;
+}
+}
+
+@media screen and (max-width:376px){
+
+}
