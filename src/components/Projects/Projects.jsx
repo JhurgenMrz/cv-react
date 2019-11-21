@@ -1,8 +1,19 @@
 import React from "react";
 import "./Projects.css";
+import { FaReact, FaNodeJs, FaCss3, FaHtml5 } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
+import { DiMongodb, DiIllustrator } from "react-icons/di";
+
 
 function Projects({ projects }) {
-  console.log(projects);
+  const DisplayIcon = name => {
+    if(name==="react") return <FaReact style={{ color: "#34bdeb" }}/>
+    if(name==="firebase") return <FaReact/>
+    if(name==="nodejs") return <FaNodeJs/>
+    if(name==="mongodb") return <DiMongodb/>
+  }
+
+
   return (
     <div className="Projects-container">
       {projects.map((project, index) => (
@@ -13,7 +24,10 @@ function Projects({ projects }) {
             <div className="Project-technologies">
               {project.technologies.map((tech, index) => (
                 <div className="Project-tech">
-                  <p>{tech.name}</p> <img src={tech.icon} alt="" />
+                  <p>{tech.name}</p> 
+                  {
+                    tech.icon_url ? <img src={tech.icon_url} alt={tech.name} /> : DisplayIcon(tech.icon_name)
+                  }
                 </div>
               ))}
             </div>

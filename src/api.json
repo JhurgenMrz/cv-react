@@ -93,7 +93,7 @@
     },
     {
       "name": "twitter",
-      "url": "https://twitter.com/JhurgenMrz"
+      "url": "https://twitter.com/JMaraza8080"
     },
     {
       "name": "github",
@@ -111,11 +111,11 @@
       "technologies":[
         {
           "name":"Stack React",
-          "icon":"https://www.shareicon.net/tag/react/data/128x128/2016/07/08/117367_logo_512x512.png"
+          "icon_name":"react"
         },
         {
           "name":"Firebase",
-          "icon":"https://cdn.icon-icons.com/icons2/691/PNG/512/google_firebase_icon-icons.com_61474.png"
+          "icon_url": "https://res-console.cloudinary.com/jmaraza-com/thumbnails/v1/image/upload/v1574365273/aWNvbnM4LWNvbG9yX3dqZXI2bw==/grid/"
         }
       ],
       "image":"https://res.cloudinary.com/jmaraza-com/image/upload/v1563385892/lem63tunx48ojum1pul9.png",

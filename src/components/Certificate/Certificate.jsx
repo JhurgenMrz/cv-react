@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
-import H3Styled from '../styled/H3Styled'
-import PStyled from '../styled/PStyled'
+import H3Styled from '../../styled/H3Styled'
+import PStyled from '../../styled/PStyled'
 
 const CertificateBox = styled.div`
 

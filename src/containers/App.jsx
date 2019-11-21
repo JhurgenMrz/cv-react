@@ -1,11 +1,10 @@
 import React from "react";
 import { createGlobalStyle } from "styled-components";
-import Main from "../components/Main";
-import Sidebar from "../components/Sidebar";
-import Details from '../components/Details'
-import Portfolio from '../components/Portfolio'
-import Projects from '../components/Projects'
-import About from "../components/About";
+import Main from "../components/Main/Main";
+import Details from '../components/Details/Details'
+import Certificates from '../components/Certificate/Certificates'
+import Projects from '../components/Projects/Projects'
+import About from "../components/About/About";
 // import useGetData from "../hooks/useGetData";
 import data from "../api.json";
 
@@ -30,20 +29,19 @@ const App = () => {
     <Main>
       <GlobalSyle />
 
-      <Sidebar>
-        <About
+      
+      <About
           avatar={data.avatar}
           profession={data.profession}
           address={data.address}
           social={data.social}
-        />
-      </Sidebar>
+      />
       
       <Details skills={data.skills} bio={data.bio} />
 
       <Projects projects={data.projects} />
 
-      {/* <Portfolio certificate={data.certificate} /> */}
+      <Certificates certificates={data.certificate} />
     </Main>
   );
 };
