@@ -58,8 +58,8 @@
     width: 50%;
 }
 .Project-description p{
-    font-family: "Roboto Mono", monospace;
-    font-size: 1.2rem;
+    font-family: "Muli", sans-serif;
+    font-size: 22px;
     margin-left: 2rem;
 }
 .Project-technologies{

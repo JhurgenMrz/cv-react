@@ -11,11 +11,11 @@ import data from "../api.json";
 
 const GlobalSyle = createGlobalStyle`
     body{
-        font-family: 'Lato', sans-serif;
+        font-family: 'Muli', sans-serif;
         margin:0 ;
         padding:0;
-        /* background-color: #393e46; */
-        background-color: #202020;
+        background: rgb(176,102,254);
+        background: linear-gradient(45deg, #4F00BC 0%, #29ABE2 100%);
     }
 `;
 

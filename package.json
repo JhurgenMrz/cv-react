@@ -21,7 +21,9 @@
   "homepage": "https://github.com/JhurgenMrz/cv-react#readme",
   "dependencies": {
     "react": "^16.8.6",
+    "react-animations": "^1.0.0",
     "react-dom": "^16.8.6",
+    "react-icons": "^3.8.0",
     "styled-components": "^4.2.0"
   },
   "devDependencies": {

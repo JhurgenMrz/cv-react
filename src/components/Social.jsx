@@ -1,23 +1,14 @@
 import React from "react";
 import styled, { ThemeProvider } from "styled-components";
+import { FaFacebookF, FaTwitter, FaGithub, FaLinkedinIn} from 'react-icons/fa'
 import './Social.css'
 
-const SocialIcon = styled.i`
-  color: ${props => props.theme.color};
-`;
-
-const facebook = {
-  color: "#3b5998"
-};
-const twitter = {
-  color: "#38a1f3"
-};
-const linkedin = {
-  color: "#0e76a8"
-};
-const github = {
-  color: "#333"
-};
+const DisplayIcon = name => {
+  if(name === 'facebook') return <FaFacebookF style={{color: "#3b5998"}}/>
+  if(name === 'twitter') return <FaTwitter style={{color: "#38a1f3"}}/>
+  if(name === 'linkedin') return <FaGithub style={{color: "#333"}}/>
+  if(name === 'github') return <FaLinkedinIn style={{color: "#0e76a8"}}/>
+}
 
 const getColor = name => {
   if (name == "facebook") return facebook;
@@ -35,9 +26,9 @@ const Social = props => {
     {props.social.map((item, index) => (
       <div className="Social-circle" key={`Social-${index}`}>
         <a href={item.url} target="_blank">
-          <ThemeProvider theme={getColor(item.name)}>
-            <SocialIcon className={`fa fa-${item.name}`} />
-          </ThemeProvider>
+          {
+            DisplayIcon(item.name)
+          }
         </a>
       </div>
     ))}

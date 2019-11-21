@@ -19,16 +19,22 @@
   width: 50%;
 }
 .Details-bio p {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Muli", sans-serif;
   color: #3c415e;
   font-weight: 400;
-  font-size: 2rem;
-  margin: 0.5em 0 1.2em 1em;
+  font-size: 22px;
+  margin: 0.5rem 0 1.2rem 2rem;
   letter-spacing: 0;
-  line-height: 120%;
+  /* line-height: 100%; */
 }
 .Details-skills {
   width: 50%;
+}
+.Details-technologies{
+  padding-top: 30px;
+  font-size: 40px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 @media screen and (max-width:768px){
