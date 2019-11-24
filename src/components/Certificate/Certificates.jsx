@@ -4,21 +4,43 @@ import H3Styled from "../../styled/H3Styled";
 import PStyled from "../../styled/PStyled";
 import Certificate from "./Certificate";
 import styled from "styled-components";
-// import icon from '../../public/icon.png'
+import { FaReact } from "react-icons/fa";
+import { device } from "../../styled/Device";
 
 const Container = styled.div`
   width: 100%;
   background-color: white;
   height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
 `;
 
 const CertificatesConteiner = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-row-gap: 2.3em;
-  justify-items: center;
+  width: 97%;
+  height: auto;
+  display: flex;
+  /* margin-left: 10px; */
+  padding-left: 10px;
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  /* overflow: hidden; */
+  margin: 0;
   text-align: center;
-  margin-bottom: 5%;
+
+  @media ${device.laptop} {
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 2.3em;
+    justify-items: center;
+    margin-bottom: 5%;
+    padding: 0;
+  }
+  
+  @media ${device.laptop}{
+    padding: 40px;
+  }
 `;
 const PCert = styled.p`
   font-family: "Lato", sans-serif;
@@ -48,13 +70,7 @@ const Certificates = ({ certificates }) => (
       ))}
     </CertificatesConteiner>
     <FooterDiv>
-      <PCert>This page was made with REACT </PCert>{" "}
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
-        alt="react"
-        witdh="10"
-        height="30"
-      />
+      <PCert>This page was made with REACT </PCert> <FaReact />
     </FooterDiv>
   </Container>
 );

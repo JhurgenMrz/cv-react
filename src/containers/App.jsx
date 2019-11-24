@@ -13,8 +13,11 @@ const GlobalSyle = createGlobalStyle`
         font-family: 'Muli', sans-serif;
         margin:0 ;
         padding:0;
-        background: rgb(176,102,254);
-        background: linear-gradient(45deg, #4F00BC 0%, #29ABE2 100%);
+        background: rgb(31,162,255);
+        background: -moz-linear-gradient(180deg, rgba(31,162,255,1) 0%, rgba(18,216,250,1) 50%, rgba(166,255,203,1) 100%);
+        background: -webkit-linear-gradient(180deg, rgba(31,162,255,1) 0%, rgba(18,216,250,1) 50%, rgba(166,255,203,1) 100%);
+        background: linear-gradient(180deg, rgba(31,162,255,1) 0%, rgba(18,216,250,1) 50%, rgba(166,255,203,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1fa2ff",endColorstr="#a6ffcb",GradientType=1);
     }
 `;
 
