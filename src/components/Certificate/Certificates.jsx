@@ -1,11 +1,8 @@
 import React from "react";
 import H2Styled from "../../styled/H2Styled";
-import H3Styled from "../../styled/H3Styled";
-import PStyled from "../../styled/PStyled";
 import Certificate from "./Certificate";
 import styled from "styled-components";
-import { FaReact } from "react-icons/fa";
-import { device } from "../../styled/Device";
+import { Device } from "../../styled/Device";
 
 const Container = styled.div`
   width: 100%;
@@ -14,21 +11,27 @@ const Container = styled.div`
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
+  padding-bottom: 20px;
+  border-radius: 25px;
 `;
 
 const CertificatesConteiner = styled.div`
-  width: 97%;
+  width: auto;
   height: auto;
   display: flex;
   /* margin-left: 10px; */
-  padding-left: 10px;
+  /* padding-left: 10px; */
   scroll-snap-type: x mandatory;
   overflow-x: scroll;
   /* overflow: hidden; */
   margin: 0;
   text-align: center;
 
-  @media ${device.laptop} {
+  @media ${Device.mobileM}{
+    width: 97%;
+  }
+
+  @media ${Device.laptop} {
     width: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -37,9 +40,10 @@ const CertificatesConteiner = styled.div`
     margin-bottom: 5%;
     padding: 0;
   }
-  
-  @media ${device.laptop}{
+
+  @media ${Device.laptop} {
     padding: 40px;
+    overflow-x: hidden;
   }
 `;
 const PCert = styled.p`
@@ -47,17 +51,6 @@ const PCert = styled.p`
   text-align: right;
   margin-right: 0;
   letter-spacing: 2px;
-`;
-
-const FooterDiv = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  justify-items: flex-end;
-  justify-items: right;
-  align-content: center;
-  align-items: center;
-  margin-right: 1%;
 `;
 
 const Certificates = ({ certificates }) => (
@@ -69,9 +62,6 @@ const Certificates = ({ certificates }) => (
         <Certificate key={`cert-${index}`} index={index} cert={cert} />
       ))}
     </CertificatesConteiner>
-    <FooterDiv>
-      <PCert>This page was made with REACT </PCert> <FaReact />
-    </FooterDiv>
   </Container>
 );
 

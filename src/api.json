@@ -1,37 +1,37 @@
 {
   "address": "Buenos Aires, Argentina",
   "avatar": "https://i.postimg.cc/cJRYDY0Y/Me.jpg",
-  "presentation":"HELLO! I'M JHURGEN M. PASSIONATE ABOUNT TECHNOLOGY AND DESIGN",
-  "bio": "Soy un Desarrollador Web Jr. AMO Programar <3, crear nuevas soluciones y aprender algo nuevo todos los dias.",
+  "presentation": "HELLO! I'M JHURGEN M. PASSIONATE ABOUNT TECHNOLOGY AND DESIGN",
+  "bio": "Soy un Desarrollador Web Jr. Me Apasiona Programar, crear nuevas soluciones y aprender algo nuevo todos los dias.",
   "certificate": [
     {
       "date": "Dec 2018",
       "description": "Desarrolla tu propia página web con HTML5 y CSS3. Crea un sitio web para tu producto, personalízalo e inicia tu carrera para ser un Frontend profesional.",
       "institution": "Platzi",
       "name": "Curso de Desarrollo Web Online",
-      "image":"https://i.postimg.cc/02KCYzMG/0001.jpg"
+      "image": "https://i.postimg.cc/02KCYzMG/0001.jpg"
+    },
+    {
+      "date": "Jun 2019",
+      "description": "Terminé la carrera de Front-end donde vi desde lo mas básico hasta cosas avanzadas como preprocesadores css, frameworks y más",
+      "institution": "Platzi",
+      "name": "Carrera de Front-end",
+      "image": "https://res.cloudinary.com/jmaraza-com/image/upload/v1574714682/0001_w8ci8r.jpg"
     },
     {
       "date": "Dec 2018",
       "description": "Maqueta aplicaciones con diseño web adaptable. Adapta tus sitios para que funcionen en cualquier pantalla, dispositivo y resolución con HTML5 y CSS3 y genera la mejor experiencia para tus usuarios con Responsive Design.",
       "institution": "Platzi",
       "name": "Curso de Responsive Design",
-      "image":"https://i.postimg.cc/mrj3LMJ4/0001-1.jpg"
+      "image": "https://i.postimg.cc/mrj3LMJ4/0001-1.jpg"
     },
     {
       "date": "May 2019",
       "description": "React es una de las librerías más utilizadas hoy para crear aplicaciones web. Aprende desde la creación y diseño de componentes hasta traer datos de un API. Desarrolla aplicaciones web de muy alta calidad en tiempo record con React.js",
       "institution": "Platzi",
       "name": "Curso de React",
-      "image":"https://i.postimg.cc/pTnQtTNY/0001-2.jpg" 
-    },
-    {
-        "date": "May 2019",
-        "description": "Java es un lenguaje de programación con el que puedes desarrollar software multiplataforma gracias a la JVM (Máquina Virtual de Java).",
-        "institution": "Platzi",
-        "name": "Curso Basico de Java SE",
-        "image":"https://i.postimg.cc/tJpsmC9g/0001-3.jpg" 
-      }
+      "image": "https://i.postimg.cc/pTnQtTNY/0001-2.jpg"
+    }
   ],
   "education": [
     {
@@ -63,27 +63,27 @@
   "skills": [
     {
       "name": "HTML5",
-      "percentage": "55%"
+      "percentage": "65%"
     },
     {
       "name": "CSS",
-      "percentage": "35%"
+      "percentage": "55%"
     },
     {
       "name": "JavaScript",
-      "percentage": "45%"
+      "percentage": "75%"
     },
     {
       "name": "React",
-      "percentage": "30%"
+      "percentage": "65%"
+    },
+    {
+      "name": "Express",
+      "percentage": "55%"
     },
     {
       "name": "Java",
       "percentage": "30%"
-    },
-    {
-      "name": "Illustrator",
-      "percentage": "50%"
     }
   ],
   "social": [
@@ -104,22 +104,22 @@
       "url": "https://www.linkedin.com/in/jhurgen-maraza-169050177/"
     }
   ],
-  "projects":[
+  "projects": [
     {
-      "name":"Patitas",
-      "description":"Patitas es un portal para poder buscar mascotas tanto para adoptar como para cuidar por un tiempo. Utilice Firebase functions y firestore para el backend. React, React-Router y Redux para todo lo que tienen que ver con el Frontend, manejo de Rutas y estados. Un login con Facebook y todo el hosting gracias a Firebase Hosting",
-      "technologies":[
+      "name": "Patitas",
+      "description": "Patitas es un portal para poder buscar mascotas tanto para adoptar como para cuidar por un tiempo. Utilice Firebase functions y firestore para el backend. React, React-Router y Redux para todo lo que tienen que ver con el Frontend, manejo de Rutas y estados. Un login con Facebook y todo el hosting gracias a Firebase Hosting",
+      "technologies": [
         {
-          "name":"Stack React",
-          "icon_name":"react"
+          "name": "Stack React",
+          "icon_name": "react"
         },
         {
-          "name":"Firebase",
+          "name": "Firebase",
           "icon_url": "https://res.cloudinary.com/jmaraza-com/image/upload/v1574365273/icons8-color_wjer6o.svg"
         }
       ],
-      "image":"https://res.cloudinary.com/jmaraza-com/image/upload/v1563385892/lem63tunx48ojum1pul9.png",
-      "pageUrl":"https://patitas-ea95e.web.app/"
+      "image": "https://res.cloudinary.com/jmaraza-com/image/upload/v1563385892/lem63tunx48ojum1pul9.png",
+      "pageUrl": "https://patitas-ea95e.web.app/"
     }
   ]
 }

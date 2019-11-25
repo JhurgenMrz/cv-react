@@ -6,6 +6,7 @@ import { IoLogoJavascript } from "react-icons/io";
 import { DiMongodb, DiIllustrator } from "react-icons/di";
 import styled, { keyframes } from "styled-components";
 import { swing } from "react-animations";
+import { fadeIn } from '../../styled/animation'
 
 const AnimationF = styled.div`
   animation: 3s ${keyframes`${swing}`} alternate-reverse infinite;
@@ -23,9 +24,13 @@ const AnimationFO = styled.div`
   
 `;
 
+const DetailsWrapper = styled.div`
+  ${fadeIn()}
+`
+
 const Details = ({ skills, bio }) => {
   return (
-    <div className="Details-container">
+    <DetailsWrapper className="Details-container">
       <h2>EXPERIENCE / KNOWLEDGE</h2>
       <div className="Details-presentation">
         <div className="Details-bio">
@@ -58,7 +63,7 @@ const Details = ({ skills, bio }) => {
           <Skills data={skills} />
         </div>
       </div>
-    </div>
+    </DetailsWrapper>
   );
 };
 

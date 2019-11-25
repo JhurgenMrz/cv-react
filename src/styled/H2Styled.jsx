@@ -1,14 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Device } from './Device'
 
 const StyledH2 =  styled.h2`
     font-family: 'Fjalla One', sans-serif;
-    font-size:2em;
+    font-size:1.5em;
     font-weight: bold;
     letter-spacing: 0.1em;
-    margin: .3em 0 0.6em 0.6em;
+    margin: 20px 0 0 25px;
     color: #00204a;
 
+    @media ${Device.mobileM}{
+        font-size: 2em;
+    }
 
 `;
 

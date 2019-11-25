@@ -1,7 +1,7 @@
 .Skills {
   display: flex;
   flex-direction: column;
-  padding: 0.8rem 4em 2em 4em;
+  padding: 0.8rem 2em 2em 2em;
 }
 
 .Skills-item {

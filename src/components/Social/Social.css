@@ -1,6 +1,7 @@
 .Social-container {
   margin: 0 auto;
   margin-bottom: 1rem;
+  margin-top: 15px;
   /* border: 2px solid blue; */
   /* height: 60px; */
   padding: 0;
@@ -29,7 +30,7 @@
 
 @media screen and (max-width:426px){
     .Social-circle{
-        width: 38px;
+        width: 43px;
         height: 38px;
         border-radius: 50%;
         display: flex;

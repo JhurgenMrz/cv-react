@@ -1,11 +1,11 @@
 {
-  "version": "1.0",
-  "name": "React CV",
-  "description": null,
+  "version": "1.0.0",
+  "name": "cv-react",
+  "description": "Este es un repo en el que hago un cv gracias a un tutorial de react en facebook",
   "icons": {
-    "60": "firefox_app_60x60.png",
-    "128": "firefox_app_128x128.png",
-    "512": "firefox_app_512x512.png"
+    "60": "/assets/firefox_app_60x60.png",
+    "128": "/assets/firefox_app_128x128.png",
+    "512": "/assets/firefox_app_512x512.png"
   },
   "developer": {
     "name": null,

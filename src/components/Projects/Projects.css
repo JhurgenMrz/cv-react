@@ -6,6 +6,8 @@
     align-items: center;
     border-radius: 25px;
     margin-bottom: 20px;
+    /* width: 100%; */
+    padding: 10px;
 }
 .Project-item{
     display: flex;
@@ -107,6 +109,9 @@
 .Project-item{
     flex-direction: column;
 }
+.Project-item h3{
+    margin: 10px 0 0 10px;
+}
 .Project-description{
     width: 100%;
 }
@@ -116,5 +121,13 @@
 }
 
 @media screen and (max-width:376px){
-
+    .Project-image img{
+        width: 280px;
+        height: 280px;
+    }
+    .Project-description p{
+        font-size: 18px;
+        /* margin-left: 2rem; */
+        margin: 10px 15px;
+    }
 }

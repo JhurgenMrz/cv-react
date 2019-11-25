@@ -4,6 +4,7 @@
   flex-direction: column;
   border-radius: 25px;
   margin-bottom: 20px;
+  padding: 10px;
 }
 .Details-container h2 {
   font-family: "Fjalla One", sans-serif;
@@ -74,6 +75,6 @@
 
 @media screen and (max-width:376px){
   .Details-bio p{
-    font-size: 1rem;
+    font-size: 18px;
   }
 }
