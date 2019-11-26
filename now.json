@@ -1,0 +1,14 @@
+{
+  "name": "jm-cv",
+  "version": 2,
+  "public": false,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build"
+    }
+  ],
+  "routes": [
+    { "src": ".*", "dest": "./dist/index.html" }
+  ]
+}
